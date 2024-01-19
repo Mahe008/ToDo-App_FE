@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(158, 41, 41);
+    color: white;
+    font-style: italic;
+    font-size: large;
+}
+
+ul {
+    list-style: decimal;
+}
+
+#get {
+    padding: 5px;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+#add {
+    padding: 7px 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+ul li {
+    padding: 5px;
+    font-weight: bold;
+}
+
+ul li button {
+    padding: 5px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+}
+
+#customizer {
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+label {
+    padding: 5px;
+    margin-left: 40px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+div>h3 {
+    margin: 0;
+}

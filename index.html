@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-in">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list</title>
+    <link rel="styleSheet" href="./assets/css/ToDo.css" />
+</head>
+
+<body id="bodyy">
+    <input id="get" size="50" />
+    <button id="add" onclick="add(event)">ADD</button>
+    <ul id="apnd"></ul>
+
+    <div id="customizer">
+        <h3>Customize :</h3>
+        <label id="chbgclr" for="bgclr">choose bg-color
+            <input type="color" id="bgclr" onchange="bodybgclr()">
+        </label>
+        <label id="fnclr" for="fntclr">choose font-color
+            <input type="color" id="fntclr" onchange="fontclr()">
+        </label>
+        <label id="fnsize" for="fntsize">change font-size
+            <input type="range" min="10" max="30" id="fontSize" onchange="fntize()">
+        </label>
+    </div>
+
+    <script src="./assets/js/ToDo.js"></script>
+</body>
+
+</html>
